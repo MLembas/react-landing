@@ -1,0 +1,23 @@
+.blog{
+   margin-top: 154px;
+}
+.blog__container{
+   max-width: 1200px;
+   margin: 0 auto;
+display: flex;
+flex-direction: column;
+}
+.blog__text{
+   margin-bottom: 80px;
+}
+.blog__blogs{
+   display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+@media screen and (max-width: 450px) {
+   .gpt3__what{
+      margin: 20px;
+      padding: 0;
+   }
+}

@@ -1,0 +1,38 @@
+.main__feature__container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 74px;
+}
+.main__feature__title{
+   font-family: Manrope;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 24px;
+   letter-spacing: -0.04em;
+color: #FFFFFF;
+min-width: 182px;
+margin-right: 80px;
+  /*блокуэ переход в новий рядок */
+}
+
+.main__feature__text{
+   font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+color: #81AFDD;
+}
+@media screen and (max-width: 1050px) {
+   .main__feature__title{
+   margin-right: 50px;
+   }
+}
+@media screen and (max-width: 900px) {
+   .main__feature__container{
+      display: flex;
+      flex-direction: column;
+   }
+}

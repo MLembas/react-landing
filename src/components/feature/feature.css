@@ -1,0 +1,44 @@
+
+.feature{
+   display: flex;
+   flex-direction: row;
+}
+.feature__container{
+   display: flex;
+   flex-direction: column;
+   margin: 20px;
+}
+
+.feature__title{
+   font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 75px;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+}
+
+.feature__text{
+   font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+color: #81AFDD;
+}
+@media screen and (max-width: 900px) {
+   .feature__container{
+      display: flex;
+      flex-direction: column;
+   }
+}
+@media screen and (max-width: 450px) {
+   .feature__container{
+      margin: 0px;
+   }
+   
+   .feature__title{
+
+   }
+}
